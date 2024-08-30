@@ -1,0 +1,51 @@
+// app global css in SCSS form
+
+.max-w-800
+{  max-width: 800px; }
+.max-w-700
+{  max-width: 700px; }
+.max-w-600
+{  max-width: 600px; }
+.max-w-500
+{  max-width: 500px; }
+.max-w-450
+{  max-width: 450px; }
+.max-w-400
+{  max-width: 400px; }
+.min-w-800
+{  min-width: 800px; }
+.min-w-700
+{  min-width: 700px; }
+.min-w-600
+{  min-width: 600px; }
+.min-w-500
+{  min-width: 500px; }
+.min-w-450
+{  min-width: 450px; }
+.min-w-400
+{  min-width: 400px; }
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.3s ease;
+}
+
+.fade-enter-from {
+  margin-top: -55px;
+  transform: scale(0);
+}
+
+.fade-leave-to {
+  margin-top: -55px;
+  transform: scale(0);
+}
+
+.fade-enter-to {
+  margin-top: 0;
+  transform: scale(1.0);
+}
+
+.fade-leave-from {
+  margin-top: 0;
+  transform: scale(1.0);
+}
